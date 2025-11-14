@@ -56,7 +56,6 @@ https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-
 - Output folder: `analytics/` in S3
 
 ## **6. Visualize Data Locally**
-1. Set up Python environment:
 - Run visualization scripts:
 python src/geo_viz_summary.py
 python src/geo_viz_heatmap.py
