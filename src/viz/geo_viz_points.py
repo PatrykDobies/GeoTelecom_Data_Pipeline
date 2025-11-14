@@ -2,7 +2,7 @@ import pandas as pd
 import folium
 import glob
 
-df = pd.read_parquet(r"D:\podyplomowe\PROJEKTY\GeoTelecom_Data_Pipeline\data\analytics\geo_points")
+df = pd.read_parquet(r"D:\GeoTelecom_Data_Pipeline\data\analytics\geo_points")
 
 df_poland = df[df["country"].str.lower() == "poland"]
 
