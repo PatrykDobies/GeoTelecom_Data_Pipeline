@@ -2,7 +2,7 @@
 Cell Towers Worldwide: ETL, AWS Glue &amp; Data Visualization
 
 ## Kaggle dataset:
-[https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent/data]
+https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent/data
 
 ---
 
