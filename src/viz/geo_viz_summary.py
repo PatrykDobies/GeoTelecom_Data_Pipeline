@@ -3,9 +3,9 @@ import plotly.express as px
 import plotly.io as pio
 import pycountry
 
-geo_summary = pd.read_parquet(r"D:\podyplomowe\PROJEKTY\GeoTelecom_Data_Pipeline\data\analytics\geo_summary/")
-operator_summary = pd.read_parquet(r"D:\podyplomowe\PROJEKTY\GeoTelecom_Data_Pipeline\data\analytics\operator_summary/")
-geo_points = pd.read_parquet(r"D:\podyplomowe\PROJEKTY\GeoTelecom_Data_Pipeline\data\analytics\geo_points")
+geo_summary = pd.read_parquet(r"D:\GeoTelecom_Data_Pipeline\data\analytics\geo_summary/")
+operator_summary = pd.read_parquet(r"D:\GeoTelecom_Data_Pipeline\data\analytics\operator_summary/")
+geo_points = pd.read_parquet(r"D:\GeoTelecom_Data_Pipeline\data\analytics\geo_points")
 
 # ISO3 helper
 def country_to_iso3(name):
