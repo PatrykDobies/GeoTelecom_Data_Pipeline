@@ -5,7 +5,7 @@ This document provides step-by-step instructions to replicate the project.
 ## **1. Download Raw Data**
 https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent/data
 
-## **2. Set up AWS S3 Buckets**
+## **2. Set up AWS S3 Bucket**
 - Create bucket: `geotelecom-data`
 - Folders inside bucket:
   - `raw/` → for raw CSVs
