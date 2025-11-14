@@ -1,6 +1,9 @@
 # GeoTelecom_Data_Pipeline
 Cell Towers Worldwide: ETL, AWS Glue &amp; Data Visualization
 
+## Kaggle dataset:
+https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-data-by-continent/data?select=Europe+towers.csv
+
 ---
 
 ## Project Description
@@ -28,19 +31,6 @@ It consists of three main stages:
 
 ---
 
-## Repository Structure
-
-GeoTelecom_Data_Pipeline/
-│
-├─ src/
-│ ├─ glue_jobs/
-│ └─ viz/
-├─ data/ (sample)
-├─ README.md
-├─ .gitignore
-
----
-
 Full datasets are stored on S3 or Kaggle and are not included in the repository.
 AWS Glue jobs can be run directly in the AWS Console or locally using PySpark.
-All visualizations are saved as interactive HTML files.
+All visualizations (except Point map of towers, size ~ 400mb) are saved as interactive HTML files.
