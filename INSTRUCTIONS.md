@@ -26,6 +26,7 @@ https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-
 ## **4. Optional: Tests / Validation in Athena
 - Connect Athena to S3 bucket: `geotelecom-data/processed/`
 - Example queries:
+  
   a. Count towers per country:
      
      SELECT country, COUNT(*) AS tower_count
