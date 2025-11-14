@@ -3,7 +3,7 @@ import numpy as np
 import folium
 from folium.plugins import HeatMap
 
-df = pd.read_parquet(r"D:GeoTelecom_Data_Pipeline\data\analytics\geo_points")
+df = pd.read_parquet(r"D:\GeoTelecom_Data_Pipeline\data\analytics\geo_points")
 
 df = df[df["country"].str.lower() == "poland"].copy()
 
