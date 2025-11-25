@@ -1,4 +1,4 @@
-# GeoTelecom_Data_Pipeline
+# GeoTelecom-Data-Pipeline
 Cell Towers Worldwide: ETL, AWS Glue &amp; Data Visualization
 
 ## Kaggle dataset:
