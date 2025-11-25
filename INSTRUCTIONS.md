@@ -57,8 +57,11 @@ https://www.kaggle.com/datasets/zakariaeyoussefi/cell-towers-worldwide-location-
 
 ## **6. Visualize Data Locally**
 - Run visualization scripts:
+  
 python src/geo_viz_summary.py
+
 python src/geo_viz_heatmap.py
+
 python src/geo_viz_points.py
 
 Output: interactive HTML dashboards in project folder
